@@ -21,7 +21,7 @@ public class StaticİleSınıfaOzgudegisken {
 
 }
  class Memur {
-    //private yapma sebebimiz diğer insanlar ddigelim kütüphanemizi paylaşıcaz insanlar gormesin diye verilerimizi
+    //private yapma sebebimiz diğer insanlar ile kütüphanemizi paylaşacağımz zaman insanlar ulaşmalarını istemediğimiz verilerimize ulaşamasın diye private kullanırız.
     private String isim;
     private int maas;
     private static int olusturulanMemurNesnesi=0;
@@ -65,6 +65,5 @@ public class StaticİleSınıfaOzgudegisken {
      public static void kanunuSoyle(){
          System.out.println("657 NOLU KANUN GEÇERLİ");
      }
-   //static olunca her yerde cagırabilirsin ama static olan bir yerde bilgileriyazdir yapamazsın
- //static metotlar static olmayan metotlara ulaşamaz nesne oluşturularak oluşturular methotlar ve değişkenler.
+     NOT:static metotlar static olmayan metotlara ulaşamaz.
 }
